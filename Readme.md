@@ -1,8 +1,11 @@
-<p align="center"><img src="https://imgur.com/yrrR3Lf.gif" alt="Logo"></p>
+### This mod is a fork of the mod "More Mounted Storages"
+Check it out original mod made by juh9870 for Minecraft 1.16.5:
+[CurseForge](https://www.curseforge.com/minecraft/mc-mods/more-mounted-storages)
+[GitHub](https://github.com/juh9870/MoreMountedStorages)
 
 ### This mod is in a beta state, and some issues may arise while using it, so please report all issues you encounter.
 
-**More Mounted Storages** mod allows for a greater variety of the modded item storages to be used as a part of Create moving contraptions, as well as providing an API for other mod makers to add their own types of mounted storages.
+**Create: Mounted Storages** mod allows for a greater variety of the modded item storages to be used as a part of Create moving contraptions, as well as providing an API for other mod makers to add their own types of mounted storages.
 
 Currently, only item storages are supported, and fluid storages support won't be added until Create add some form of an API for them
 

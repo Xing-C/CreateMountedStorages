@@ -4,9 +4,9 @@ license="MIT"
 [[mods]]
     modId="moremountedstorages" #mandatory
     version="${file.jarVersion}" #mandatory
-    displayName="More Mounted Storages" #mandatory
+    displayName="Create: Mounted Storages" #mandatory
     logoFile="logo.png" #optional
-    issueTrackerURL="https://github.com/juh9870/MoreMountedStorages/issues" #optional
+    issueTrackerURL="https://github.com/Lgmrszd/CreateMountedStorages/issues" #optional
     authors="juh9870" #optional
     description='''Allows storages from various mods to be used as a part of Create moving contraptions.
 Suppoted mods:
@@ -18,8 +18,8 @@ Suppoted mods:
     - Industrial Foregoing https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing
     - PneumaticCraft: Repressurized https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized
     - Expanded Storage: https://www.curseforge.com/minecraft/mc-mods/expanded-storage-forge
-    - DimStorage: https://www.curseforge.com/minecraft/mc-mods/dimstorage
-    # - Storage Overhaul: https://www.curseforge.com/minecraft/mc-mods/storage-overhaul'''
+    - EnderChests: https://www.curseforge.com/minecraft/mc-mods/enderchests
+    - DimStorage: https://www.curseforge.com/minecraft/mc-mods/dimstorage'''
 [[dependencies.moremountedstorages]] #optional
     modId="forge" #mandatory
     mandatory=true #mandatory
@@ -91,6 +91,18 @@ Suppoted mods:
     modId="enderchests"
     mandatory=false
     versionRange="[1.9.5,)" #keep updated
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.moremountedstorages]]
+    modId="dimstorage"
+    mandatory=false
+    versionRange="[6.1.0,)" #keep updated
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.moremountedstorages]]
+    modId="ironchest"
+    mandatory=false
+    versionRange="[1.18.2-13.1.9,)" #keep updated
     ordering="AFTER"
     side="BOTH"
 #[[dependencies.moremountedstorages]]
