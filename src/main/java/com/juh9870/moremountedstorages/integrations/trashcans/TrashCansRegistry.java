@@ -18,7 +18,7 @@ import javax.annotation.Nonnull;
 import java.util.ArrayList;
 
 public class TrashCansRegistry extends ContraptionStorageRegistry {
-	public static final Lazy<ContraptionStorageRegistry> INSTANCE = getInstance(Utils.constructId("trashcans", "can"));
+	public static final Lazy<ContraptionStorageRegistry> INSTANCE = getInstance(Utils.constructId("trashcans", "trashcan"));
 	public static final TrashCanConfig CONFIG = new TrashCanConfig("trashcans", "Trash Cans");
 
 	@Override
