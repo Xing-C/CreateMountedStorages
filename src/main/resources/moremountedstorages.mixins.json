@@ -10,7 +10,6 @@
     "dimstorage.DimStorageManagerMixin",
     "enderchests.ChestHelperMixin",
     "enderstorage.EnderStorageManagerMixin",
-    "expandedstorage.AbstractChestBlockMixin",
     "storagedrawers.BasicDrawerAttributesMixin"
   ],
   "minVersion": "0.8"

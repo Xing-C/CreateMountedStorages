@@ -147,8 +147,11 @@ dependencies {
     implementation fg.deobf("curse.maven:patchouli-306770:${patchouli_version}")
     implementation fg.deobf("curse.maven:pneumaticcraft-repressurized-281849:${pneumaticcraft_version}")
 
-    implementation fg.deobf("curse.maven:ninjaphenixs-container-library_versioncode-530668:${ninjaphenixs_container_library_versioncode}")
-    implementation fg.deobf("curse.maven:expanded-storage-forge-362415:${expandedstorage_versioncode}")
+    //implementation fg.deobf("curse.maven:ninjaphenixs-container-library_versioncode-530668:${ninjaphenixs_container_library_versioncode}")
+//    implementation fg.deobf("/libs/*.jar")
+//
+//    implementation fg.deobf("curse.maven:expanded-storage-forge-362415:${expandedstorage_versioncode}")
+
 
     implementation fg.deobf("curse.maven:supermartijn642s-core-lib-454372:${supermartijn642score_versioncode}")
     implementation fg.deobf("curse.maven:trash-cans-394535:${trashcans_versioncode}")

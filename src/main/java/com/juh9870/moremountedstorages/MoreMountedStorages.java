@@ -5,7 +5,6 @@ import com.juh9870.moremountedstorages.integrations.create.CreativeCrateRegistry
 import com.juh9870.moremountedstorages.integrations.dimstorage.DimStorageRegistry;
 import com.juh9870.moremountedstorages.integrations.enderchests.EnderChestsRegistry;
 import com.juh9870.moremountedstorages.integrations.enderstorage.EnderStorageRegistry;
-import com.juh9870.moremountedstorages.integrations.expandedstorage.ExpandedStorageRegistry;
 import com.juh9870.moremountedstorages.integrations.immersiveengineering.ImmersiveEngineeringRegistry;
 import com.juh9870.moremountedstorages.integrations.industrialforegoing.IndustrialForegoingControllerRegistry;
 import com.juh9870.moremountedstorages.integrations.industrialforegoing.IndustrialForegoingRegistry;
@@ -78,7 +77,6 @@ public class MoreMountedStorages {
         registry.register("immersiveengineering", "crate", () -> new ImmersiveEngineeringRegistry(), () -> ImmersiveEngineeringRegistry.CONFIG);
         registerIndustrialForegoing(registry);
         registerPneumaticcraft(registry);
-        registry.register("expandedstorage", "chest", () -> new ExpandedStorageRegistry(), () -> ExpandedStorageRegistry.CONFIG);
         registry.register("trashcans", "trashcan", () -> new TrashCansRegistry(), () -> TrashCansRegistry.CONFIG);
         registry.register("dimstorage", "dimensional_chest", () -> new DimStorageRegistry(), () -> DimStorageRegistry.CONFIG);
 

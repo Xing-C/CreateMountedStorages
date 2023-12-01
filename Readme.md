@@ -17,7 +17,6 @@ Currently, only item storages are supported, and fluid storages support won't be
 - [Immersive Engineering](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering): Crates
 - [Industrial Foregoing](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing): Black Hole Unit and Black Hole Controller (items only)
 - [PneumaticCraft: Repressurized](https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized): Smart chest fix, requires PnC v1.16.5-2.14.6-277 or above to function (mod will still load with older version of PnC installed, but fix won't be applied)
-- [Expanded Storage](https://www.curseforge.com/minecraft/mc-mods/expanded-storage-forge): all chests and barrels types
 - [Trash Cans](https://www.curseforge.com/minecraft/mc-mods/trash-cans): Trash Can and Ultimate Trash Can
 - [EnderChests](https://www.curseforge.com/minecraft/mc-mods/enderchests): Ender Chest
 - [DimStorage](https://www.curseforge.com/minecraft/mc-mods/dimstorage): Dimensional Chest
